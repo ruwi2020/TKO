@@ -1,0 +1,196 @@
+focus_tree = {
+    id = AUS_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            tag = AUS
+        }
+    }
+    
+    default = no
+
+    focus = {
+        id = AUS.1
+        x = 0
+        y = 0
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            add_political_power = 50
+            country_event = { id = AUS_1 }
+        days = 5
+        random_hours = 24
+        random_days = 5
+
+        }
+    }
+
+    focus = {
+        id = AUS.2
+        x = 4
+        y = 2
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        relative_position_id = AUS.1
+        prerequisite = { focus = AUS.1 }
+        completion_reward = { 
+            country_event = { id = AUS_2}
+            days = 5
+        random_hours = 24
+        random_days = 5
+            
+            }
+        }
+    
+    focus = {
+        id = AUS.3
+        x = 2
+        y = 2
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        relative_position_id = AUS.1
+        prerequisite = { focus = AUS.1 }
+        completion_reward = { 
+           country_event = { id = AUS_2}
+            days = 5
+        random_hours = 24
+        random_days = 5
+             
+    }
+    }
+focus = {
+        id = AUS.4
+        x = 4
+        y = 4
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        relative_position_id = AUS.2
+        prerequisite = { focus = AUS.2 }
+        completion_reward = { 
+           country_event = { id = AUS_4}
+            days = 5
+        random_hours = 24
+        random_days = 5
+             
+        }
+}
+focus = {
+        id = AUS.5
+        x = 2
+        y = 4
+        cost = 5
+        ai_will_do = {
+            factor = 1
+        }
+        relative_position_id = AUS.3
+        prerequisite = { focus = AUS.3 }
+        completion_reward = { 
+           country_event = { id = AUS_5}
+            days = 5
+        random_hours = 24
+        random_days = 5
+             
+        }
+}
+
+focus = {
+        id = AUS.6
+        x = 2
+        y = 4
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        relative_position_id = AUS.3,AUS.2
+        prerequisite = { focus = AUS.3 focus = AUS.2 }
+        completion_reward = { 
+           add_political_power = 50
+           country_event = { id = AUS_6}
+            days = 5
+        random_hours = 24
+        random_days = 5
+             
+        }
+}
+}
+
+ 
+    
+	
+
+			
+
+
+	
+			
+             
+	
+
+       
+
+		 
+	
+	
+
+	
+
+	
+		
+	
+    
+				  
+			
+			  
+
+
+    
+	
+	
+	
+		 
+		
+	
+
+
+	
+	
+	
+
+	
+
+				
+					
+			  		
+	
+
+
+		
+	
+
+		
+		
+	
+
+
+			
+
+	
+
+
+
+
+
+
+    
+
