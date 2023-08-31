@@ -1,0 +1,23 @@
+state={
+	id=909
+	name="STATE_909"
+	provinces={
+		688 3675 6708 11634 
+	}
+	history = {
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			688 10 
+		}
+	}
+	manpower=327089
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

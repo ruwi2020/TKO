@@ -1,0 +1,38 @@
+
+state={
+	id=4
+	name="STATE_4"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = AUS
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+		1939.1.1 = {
+			buildings = {
+				anti_air_building = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		704 3718 6690 6739 9527 
+	}
+	manpower=58213
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

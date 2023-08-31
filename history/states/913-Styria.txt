@@ -1,0 +1,40 @@
+state={
+	id=913
+	name="STATE_913"
+	provinces={
+		653 6687 6691 9646 9648 9650 9679 
+	}
+	
+	history={
+		owner = AUS
+		victory_points = {
+			9648 5 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 2
+		}
+		add_core_of = AUS
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+		1939.1.1 = {
+			buildings = {
+				anti_air_building = 2
+
+			}
+
+		}
+
+	}
+	
+	manpower=893213
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

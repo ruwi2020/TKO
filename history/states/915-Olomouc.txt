@@ -1,0 +1,21 @@
+state={
+	id=915
+	name="STATE_915"
+	provinces={
+		421 6485 6562 
+	}
+	history={
+		owner = CZE
+		victory_points = {
+			6562 5 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CZE
+	}
+	manpower=337213
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

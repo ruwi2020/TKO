@@ -1,0 +1,35 @@
+state={
+	id=912
+	name="STATE_912"
+	provinces={
+		3700 9661 11630 
+	}
+	history={
+		owner = AUS
+		victory_points = {
+			9648 5 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = AUS
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+		1939.1.1 = {
+			buildings = {
+				anti_air_building = 2
+
+			}
+
+		}
+
+	}
+	manpower=160932
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
