@@ -1,0 +1,95 @@
+﻿add_namespace = AUS 
+
+country_event = { 
+	id = AUS_1
+	title = AUS_1.t
+	desc = AUS_1.tag
+
+	is_triggered_only = yes
+
+	option = {  #The dying Karl is worried about Austria's future fate
+	
+	}
+}
+
+country_event = {
+	id = AUS.2
+	title = AUS.2.t
+	desc = AUS.2.tag
+    picture = GFX_report_event_canadian_tank
+	
+	is_triggered_only = yes
+
+	option = {
+		#A farmer is worried about the future when he selling his property to the state
+	}
+}
+
+country_event = {
+	id = AUS.3
+	title = AUS.3.t
+	desc = AUS.3.tag
+    picture = GFX_report_event_canadian_tank
+
+	is_triggered_only = yes
+
+	option = {
+		#Crown Prince Otto promises democratic reform
+	}
+}
+
+country_event = {
+	id = AUS.4
+	title = AUS.4.t
+	desc = AUS.4.tag
+    picture = GFX_report_event_canadian_tank
+	
+	is_triggered_only = yes
+
+	option = {
+		#Crown Prince Otto's reform is expected by the people
+	}
+	}
+
+country_event = {
+	id = AUS.5
+	title = AUS.5.t
+	desc = AUS.5.tag
+    picture = GFX_report_event_canadian_tank
+
+	is_triggered_only = yes
+
+	option = {
+		#Prince Otto is worried about his dying father
+	}
+}
+
+country_event = {
+	id = AUS.6
+	title = AUS.6.t
+	desc = AUS.6.tag
+    picture = GFX_report_event_canadian_tank
+	
+	is_triggered_only = yes
+
+	option = {
+		#Explaining the Austrian People's Party, Social Democrats, and Freedom party
+	}
+	}
+
+
+	country_event = {
+	id = AUS.6
+	title = AUS.6.t
+	desc = AUS.6.tag
+    picture = GFX_report_event_canadian_tank
+	
+	is_triggered_only = yes
+
+	option = {
+	#korean war
+	}
+	}
+date = 1950.6.25 
+	
+	
